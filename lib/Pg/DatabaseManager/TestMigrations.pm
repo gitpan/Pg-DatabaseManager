@@ -1,6 +1,6 @@
 package Pg::DatabaseManager::TestMigrations;
 BEGIN {
-  $Pg::DatabaseManager::TestMigrations::VERSION = '0.02';
+  $Pg::DatabaseManager::TestMigrations::VERSION = '0.03';
 }
 
 use strict;
@@ -136,7 +136,7 @@ Pg::DatabaseManager::TestMigrations - Test your database migrations
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
