@@ -21,13 +21,36 @@
       },
       "runtime" : {
          "requires" : {
+            "DBI" : 0,
+            "Exporter" : 0,
+            "File::Slurp" : 0,
+            "File::Spec" : 0,
+            "File::Temp" : 0,
+            "File::Which" : 0,
+            "List::AllUtils" : 0,
             "Moose" : 0,
-            "Pg::CLI" : "0.04"
+            "MooseX::Getopt" : 0,
+            "MooseX::Getopt::Dashes" : 0,
+            "MooseX::Params::Validate" : "0.15",
+            "MooseX::StrictConstructor" : 0,
+            "MooseX::Types" : 0,
+            "MooseX::Types::Moose" : 0,
+            "MooseX::Types::Path::Class" : 0,
+            "Path::Class" : 0,
+            "Pg::CLI" : "0.04",
+            "Pg::CLI::pg_config" : 0,
+            "Pg::CLI::pg_dump" : 0,
+            "Pg::CLI::psql" : 0,
+            "Test::Differences" : 0,
+            "Test::More" : "0.88",
+            "autodie" : 0,
+            "namespace::autoclean" : 0
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.88"
+            "Test::More" : "0.88",
+            "Test::Spelling" : 0
          }
       }
    },
@@ -43,6 +66,6 @@
          "web" : "http://hg.urth.org/hg/Pg-DatabaseManager"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

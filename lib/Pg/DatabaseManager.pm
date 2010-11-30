@@ -1,6 +1,6 @@
 package Pg::DatabaseManager;
 BEGIN {
-  $Pg::DatabaseManager::VERSION = '0.01';
+  $Pg::DatabaseManager::VERSION = '0.02';
 }
 
 use Moose;
@@ -9,10 +9,8 @@ use autodie;
 use namespace::autoclean;
 
 use DBI;
-use File::Slurp qw( read_file);
+use File::Slurp qw( read_file );
 use File::Spec;
-use File::Which qw( which );
-use File::Temp qw( tempdir);
 use List::AllUtils qw( first );
 use MooseX::Types::Moose qw( ArrayRef Bool Int Maybe Str );
 use MooseX::Types::Path::Class qw( Dir File );
@@ -523,7 +521,7 @@ Pg::DatabaseManager - Manage installation and migration of an application's (Pos
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -605,6 +603,9 @@ as part of a migration, for example:
   }
 
 This is the entire migration file.
+
+This module always dumps the existing database (with data) to a file in the
+temp directory before running migrations.
 
 =head2 Testing Migrations
 
