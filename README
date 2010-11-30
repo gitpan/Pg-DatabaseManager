@@ -1,0 +1,14 @@
+
+
+This archive contains the distribution Pg-DatabaseManager,
+version 0.01:
+
+  Manage installation and migration of an application's (Postgres) database
+
+This software is Copyright (c) 2010 by Dave Rolsky.
+
+This is free software, licensed under:
+
+  The Artistic License 2.0
+
+

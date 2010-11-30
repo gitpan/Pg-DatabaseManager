@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.61.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 b8b1710f143531988ce1aad5769a862f1d124485 Changes
+SHA1 05f400e88b1ebe29751f05a0f60d9e1c445646a5 INSTALL
+SHA1 23c628b4a8a36738405ccdacaeb912d2e727b4c0 LICENSE
+SHA1 6f516a690d19b9afc5b5cf577722af6e3aeb73bb MANIFEST
+SHA1 9d3f9f7458cc7d694491e705c033f9fd4a957c70 META.json
+SHA1 7b1858e8e46fe62dbcaba8071963848b440ddf1f META.yml
+SHA1 65c08ec99b7df9eda2d100c7161c4dae8b1cb6af Makefile.PL
+SHA1 f344f93f82172e3064ff40bf8a415773cb748768 README
+SHA1 3b793c2caa72d175421b59e1cbe14f2f1643d142 dist.ini
+SHA1 558460093457b4639cb146e766d59544172b72cd lib/Pg/DatabaseManager.pm
+SHA1 d55c2980fcbc07a96bf51d78445b45996617dcb8 lib/Pg/DatabaseManager/TestMigrations.pm
+SHA1 c4c889fd5bd7130e0d258339836a6957c9cd5568 t/01-load.t
+SHA1 a032c41ef6887fab1b900669c2d304fab46680e2 t/release-eol.t
+SHA1 455d1dd1867212a665ad5ea4126b572411de300c t/release-no-tabs.t
+SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
+SHA1 a7dc82fa1af8261dadc45363cb60c47d954ac624 t/release-pod-spell.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkz1KdgACgkQIgMCsV8qvRKVsQCgg4zqqdvcCqN5DQX63sA4gT7O
+CxYAnA/PPodmUgXHtGD80MADBN30ZeO9
+=fllv
+-----END PGP SIGNATURE-----
