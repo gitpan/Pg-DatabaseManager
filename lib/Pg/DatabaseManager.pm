@@ -1,6 +1,6 @@
 package Pg::DatabaseManager;
 BEGIN {
-  $Pg::DatabaseManager::VERSION = '0.03';
+  $Pg::DatabaseManager::VERSION = '0.04';
 }
 
 use Moose;
@@ -521,7 +521,7 @@ Pg::DatabaseManager - Manage installation and migration of an application's (Pos
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 

@@ -29,6 +29,7 @@ my %WriteMakefileArgs = (
     'Moose' => '0',
     'MooseX::Getopt' => '0',
     'MooseX::Params::Validate' => '0.15',
+    'MooseX::StrictConstructor' => '0',
     'MooseX::Types' => '0',
     'MooseX::Types::Path::Class' => '0',
     'Path::Class' => '0',
@@ -38,7 +39,7 @@ my %WriteMakefileArgs = (
     'autodie' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.03',
+  'VERSION' => '0.04',
   'test' => {
     'TESTS' => 't/*.t'
   }
