@@ -1,6 +1,6 @@
 package Pg::DatabaseManager::TestMigrations;
 BEGIN {
-  $Pg::DatabaseManager::TestMigrations::VERSION = '0.04';
+  $Pg::DatabaseManager::TestMigrations::VERSION = '0.05';
 }
 
 use strict;
@@ -136,7 +136,7 @@ Pg::DatabaseManager::TestMigrations - Test your database migrations
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
@@ -218,11 +218,11 @@ Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Dave Rolsky.
+This software is Copyright (c) 2011 by Dave Rolsky.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
 

@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.61.
+signed via the Module::Signature module, version 0.66.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,17 +14,17 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 1f8c945705193e873d9782481527c84c9861355c Changes
+SHA1 09cdc993d4866663e8458c53e3dd984271b47092 Changes
 SHA1 05f400e88b1ebe29751f05a0f60d9e1c445646a5 INSTALL
-SHA1 23c628b4a8a36738405ccdacaeb912d2e727b4c0 LICENSE
+SHA1 c715d20265d2931c7564fc64abfdc4f8ff33e297 LICENSE
 SHA1 6f516a690d19b9afc5b5cf577722af6e3aeb73bb MANIFEST
-SHA1 0245a44159883ac246d1782e9bfa68f48cd8cea2 META.json
-SHA1 9d18765fe45371f133edc4770d515fc2561fb9de META.yml
-SHA1 6f3a0d7b1b75c04eafeddb407807191c708a4259 Makefile.PL
-SHA1 5c20f4ef7c37102355933b7c0727cc1a9bae136b README
-SHA1 a511e15defaf8ce01322dbdd2f6f7534ab105353 dist.ini
-SHA1 f0f393c4f6e39c7d68550ae182f773ead74cffb3 lib/Pg/DatabaseManager.pm
-SHA1 858afb80c2c085286d38c40cdc50108cbe155708 lib/Pg/DatabaseManager/TestMigrations.pm
+SHA1 79cf3d0d5b49460b6ac227822a3d0dd3f915cb8e META.json
+SHA1 26510a3c6652c9ab81c44b9f457b1ee83e8e13c2 META.yml
+SHA1 8c2ba9a966d7d2b1b55f8241963a171538a1e725 Makefile.PL
+SHA1 1fd06d5509c26d4aa8dd3ce2c12ed4a3f012ac2a README
+SHA1 7d35f2158e94a2cb9ed75bb250dfd68da94e6273 dist.ini
+SHA1 779a069757fad82882d7257347a5e9524d515f87 lib/Pg/DatabaseManager.pm
+SHA1 27b8a716de8daa8eb791321437550ec0d863668b lib/Pg/DatabaseManager/TestMigrations.pm
 SHA1 c4c889fd5bd7130e0d258339836a6957c9cd5568 t/01-load.t
 SHA1 a032c41ef6887fab1b900669c2d304fab46680e2 t/release-eol.t
 SHA1 455d1dd1867212a665ad5ea4126b572411de300c t/release-no-tabs.t
@@ -34,7 +34,7 @@ SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkz10BgACgkQIgMCsV8qvRJozACcDJh6qTx7f5ArDB3Z56aeBpMw
-LAoAoIGomafODmd81mIu/YujMpiinwnM
-=mxSp
+iEYEARECAAYFAk03UzUACgkQIgMCsV8qvRJoAQCaA98hDBOaHO+p5KY/q72Z57vs
+36IAn37Gb4EcQhbetsQOPXEnpt+AxxJZ
+=mbRB
 -----END PGP SIGNATURE-----

@@ -1,6 +1,6 @@
 package Pg::DatabaseManager;
 BEGIN {
-  $Pg::DatabaseManager::VERSION = '0.04';
+  $Pg::DatabaseManager::VERSION = '0.05';
 }
 
 use Moose;
@@ -227,7 +227,7 @@ sub _connect_failure_message {
 
     $msg .= sprintf(
         "  %13s = %s\n", 'ssl',
-        $self->requires_ssl() ? 'required' : 'not required'
+        $self->ssl() ? 'required' : 'not required'
     );
 
     return $msg;
@@ -521,7 +521,7 @@ Pg::DatabaseManager - Manage installation and migration of an application's (Pos
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
@@ -752,11 +752,11 @@ Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Dave Rolsky.
+This software is Copyright (c) 2011 by Dave Rolsky.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
 
